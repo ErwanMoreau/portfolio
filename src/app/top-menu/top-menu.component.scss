@@ -1,0 +1,41 @@
+.nav-link{
+    color: white!important;
+    // letter-spacing: 5px;
+}
+.nav-link:hover{
+    color: gray!important;
+}
+.nav-link.active{
+    color: lightgray!important;
+}
+.link-mgr{
+    margin-right: 20px;
+}
+.btn-sm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fr{
+  border-radius: 5px 0 0 5px;  
+}
+.en{
+    border-radius: 0 5px 5px 0;  
+}
+.nav{
+    margin-right: 30px;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 576px) {
+ 
+    .en{
+        position: absolute;
+        right: 3px;
+        bottom: 10px;
+    }
+    .fr{
+        position: absolute;
+        right: 60px;
+        bottom: 10px;
+    }
+  }
