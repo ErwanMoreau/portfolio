@@ -3,3 +3,56 @@
 body{
     height: 10000px;
 }
+.customTrait{
+    background: linear-gradient(to bottom right, #38A2B7,white);
+    width: 315px;
+    height: 2px;
+    position: absolute;
+    left: 15px;
+}
+.customTraitBis{
+    background: linear-gradient(to bottom right, black  , #38A2B7);
+    width: 340px;
+    height: 2px;
+    position: absolute;
+    left: 15px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .customTrait{
+        background: linear-gradient(to bottom right, #38A2B7,white );
+        width: 320px;
+        height: 2px;
+        position: absolute;
+        left: 15px;
+    }
+    .customTraitBis{
+        background: linear-gradient(to bottom right, black  ,lightgray);
+        width: 340px;
+        height: 2px;
+        position: absolute;
+        left: 15px;
+    }
+}
+
+html, body{
+ font-family: 'Roboto Mono', monospace;
+  background: ;
+  height: 100%;
+}
+/* .container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+} */
+.text{
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+}
+.dud{
+  color: #757575;
+}
