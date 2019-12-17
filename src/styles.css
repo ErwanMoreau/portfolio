@@ -3,6 +3,12 @@
 body{
     height: 10000px;
 }
+.customTitle{
+  font-family: 'Solway', serif;
+  font-weight: bold;
+  color: #38A2B7;
+}
+
 .customTrait{
     background: linear-gradient(to bottom right, #38A2B7,white);
     width: 315px;
@@ -41,13 +47,7 @@ html, body{
   background: ;
   height: 100%;
 }
-/* .container {
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-} */
+
 .text{
   font-weight: 100;
   font-size: 28px;
@@ -56,3 +56,11 @@ html, body{
 .dud{
   color: #757575;
 }
+
+
+.customTAC{
+  text-align: center;
+}
+
+
+

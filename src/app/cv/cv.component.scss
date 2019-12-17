@@ -1,0 +1,44 @@
+.customBG{
+    background-color: #38A2B7;
+    height: 340px;
+}
+.customTitle{
+    color: white;
+}
+.posRelative{
+    position: relative;
+}
+.customPos{
+    position: absolute;
+    top: 30px;
+    left: 530px;
+}
+@media screen and (max-width: 768px) {
+    .customBG{
+        height: 350px;
+    }
+  }
+
+.customTraitCV{
+    background: linear-gradient(to bottom right, black  , #38A2B7);
+    width: 250px;
+    height: 2px;
+    position: absolute;
+    left: 450px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .customTraitCV{
+        background: linear-gradient(to bottom right, black  ,lightgray);
+        width: 250px;
+        height: 2px;
+        position: absolute;
+        left: 70px;
+    }
+    .customPos{
+        position: absolute;
+        top: 30px;
+        left: 145px;
+    }
+}

@@ -13,18 +13,29 @@ import { ServiceComponent } from './service/service.component';
 import { LanguageState } from './shared/store/state/language.state';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { CompetenceComponent } from './competence/competence.component';
+import { ProjectComponent } from './project/project.component';
+import { CvComponent } from './cv/cv.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { ViewComponent } from './view/view.component';
+
 
 const appRoutes: Routes = [
 
   {
     path: '',
     component: PrincipalComponent,
-    data: { title: 'Heroes List' }
-  }
-  // { path: '',
-  //   redirectTo: '/heroes',
-  //   pathMatch: 'full'
-  // },
+    data: { title: 'principal accueil' }
+  },
+  {
+    path: 'projet',
+    component: ViewComponent,
+    data: { title: 'vue projet' }
+  },
+  { path: '',
+    redirectTo: '',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({
@@ -35,7 +46,12 @@ const appRoutes: Routes = [
     AboutComponent,
     PrincipalComponent,
     ServiceComponent,
-    CompetenceComponent
+    CompetenceComponent,
+    ProjectComponent,
+    CvComponent,
+    ContactComponent,
+    FooterComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,

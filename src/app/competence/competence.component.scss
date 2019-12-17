@@ -1,8 +1,19 @@
-.customBG{
-    background-color: #38A2B7;
-    height: 500px;
-}
+
 .customTitle{
     color: white;
 }
+.customCompetence{
+    font-weight: bold;
+    color: white;
+    font-size: 1.6rem;
+}
 
+.customBG{
+    background-color: #38A2B7;
+    height: 600px;
+}
+@media screen and (max-width: 768px) {
+    .customBG{
+        height: 980px;
+    }
+  }
